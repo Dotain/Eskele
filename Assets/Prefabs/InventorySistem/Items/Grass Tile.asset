@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acfeb86fe63a3cd40b35fcfb95d71ce9, type: 3}
+  m_Name: Grass Tile
+  m_EditorClassIdentifier: 
+  ItemName: Grass
+  ItemIcon: {fileID: 5150320297453000209, guid: 5e0bba744ecf52a49a6bcc23ed98ee6a,
+    type: 3}
+  maxStackSize: 100

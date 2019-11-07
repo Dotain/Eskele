@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5422173573682681871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 419302219139698899}
+  - component: {fileID: 2424338124235490102}
+  m_Layer: 0
+  m_Name: Chunk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &419302219139698899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5422173573682681871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2424338124235490102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5422173573682681871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c86bbc6c8d12e744093f7be18ed8b681, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DirtTile: {fileID: 7475012876780642886, guid: 3da9a48a177d83a4da9ab54ced04c18d,
+    type: 3}
+  GrassTile: {fileID: 6901900334286500417, guid: c6c31f0e35a6cd049bf5e56a5f378237,
+    type: 3}
+  StoneTile: {fileID: 3243217536460350876, guid: 78a77752e4f492f4b9ce5a5d8c00c53c,
+    type: 3}
+  width: 25
+  heightMultipilier: 15
+  heightAddition: 30
+  smoothnes: 17.5
+  seed: 0
+  TileCoal: {fileID: 1919688860168195113, guid: 68e77a1da65e5d14c9038b46b07e5973,
+    type: 3}
+  TileIron: {fileID: 8575724419290110380, guid: 4a2fe2b6163b83e4f9b62c23eba5dd84,
+    type: 3}
+  TileGold: {fileID: 7620524176224359865, guid: c7d8445b599e8e049ad4e79c7e107ef1,
+    type: 3}
+  TileCopper: {fileID: 4702752334916898939, guid: af4864d74cb0b5e4293336d5f946b662,
+    type: 3}
+  IronChances: 0.75
+  GoldChances: 0.1
+  CoalChances: 1.3
+  CopperChances: 1
